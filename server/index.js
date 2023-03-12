@@ -55,7 +55,7 @@ mongoose
     useUnifiedTopology: true,
   })
   .then(() => {
-    app.listen(PORT, () => console.log(`Server is on port ${PORT}`))
+    app.listen(PORT, () => console.log(`Server is currently on port ${PORT}`))
     // add data once
     // User.insertMany(dataUser)
     // Product.insertMany(dataProduct)
